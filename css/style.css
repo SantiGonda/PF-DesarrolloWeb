@@ -46,7 +46,6 @@ nav {
 
 main {
     margin: 50px;
-    height: 50vh;
 }
 
 .bienvenida2 {
@@ -62,6 +61,9 @@ footer {
     height: 30vh;
     justify-content: space-around;
     font-family: 'newake';
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 footer img {
@@ -90,18 +92,64 @@ footer section {
     gap: 50px;
 }
 
+footer button {
+    padding: 20px 10px 10px 10px;
+    background-color: rgb(19, 42, 19);
+    border-radius: 10px;
+    border: 3px solid rgb(19, 42, 19);
+    color: rgb(236, 243, 158);
+}
+
 @media screen and (max-width:768px) {
     footer {
         display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "logo-footer nuevo-socio"
+            "redes redes"
 
+    }
+
+    .redes {
+        grid-area: redes;
+    }
+
+    .logo-footer {
+        grid-area: logo-footer;
+        display: flex;
+        justify-content: right;
+        padding-right: 40px;
+    }
+
+    .nuevo-socio {
+        grid-area: nuevo-socio;
+        display: flex;
+        justify-content: left;
+        /* padding-left: 20px; */
     }
 
     .redes {
         margin-right: 0px;
     }
-.navbar-brand img {
-    height: 40px;
-}
+
+    .link-redes {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .redes h3 {
+        display: none;
+    }
+
+    footer img {
+        height: 75px;
+    }
+
+
+    .navbar-brand img {
+        height: 40px;
+    }
 
 }
 
