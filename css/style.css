@@ -58,11 +58,11 @@ main {
 footer {
     background-color: rgb(236, 243, 158);
     display: flex;
-    height: 30vh;
+    height: 25vh;
     justify-content: space-around;
     font-family: 'newake';
     width: 100%;
-    position: absolute;
+    position:sticky;
     bottom: 0;
 }
 
@@ -94,9 +94,14 @@ footer section {
 
 footer button {
     padding: 20px 10px 10px 10px;
-    background-color: rgb(19, 42, 19);
-    border-radius: 10px;
+    background-color: rgb(49, 87, 44);
+    border-radius: 30px;
     border: 3px solid rgb(19, 42, 19);
+    color: rgb(236, 243, 158);
+}
+
+.nuevo-socio a{
+    text-decoration: none;
     color: rgb(236, 243, 158);
 }
 
