@@ -240,7 +240,6 @@ footer button {
         grid-template-areas:
             "logo-footer nuevo-socio"
             "redes redes"
-
     }
     .redes {
         grid-area: redes;
