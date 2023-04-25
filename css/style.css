@@ -111,23 +111,39 @@ footer button {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.main-geneticas h5{
+    font-family: 'greensheep';
+}
 .main-inicio {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-family: 'weed';
-    margin: 50px;
+    margin: 10px;
     font-size: large;
+    background-image: url(../img/Flora.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }
 .main-inicio h1{
     text-align: center;
+    background-color: rgb(19, 42, 19);
+    color: rgb(236, 243, 158);
+    border-radius: 20px;
+    padding: 10px;
 }
 .main-inicio h2{
     text-align: center;
+    background-color: rgb(19, 42, 19);
+    color: rgb(236, 243, 158);
+    border-radius: 20px;
+    padding: 10px;
 }
 .main-inicio img {
     height: 400px;
+    border-radius: 50px;
 }
 .main1-club {
     display: grid;
