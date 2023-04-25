@@ -50,53 +50,23 @@
     </header>
 
 
-    <main>
-        <form>
-
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="Nombre" placeholder="Juan Perez">
-            <br>
-
-            <label for="email">Email</label>
-            <input type="email" name="email">
-            <br>
-
-            <label for="password">Contaseña</label>
-            <input type="password" name="password">
-            <br>
-
-            <label for="Mensaje">Mensaje</label>
-            <br>
-            <textarea name="Mensaje" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar formulario">
-            <input type="reset" value="Resetear formulario">
-
-        </form>
-
-        <div><label for="check">Aceptar terminos y condiciones</label>
-            <input type="checkbox" name="Check" id="check">
-
-            <label for="colores">Cuanto te gusta la Marihuana</label>
-            <select name="gustos" id="colores">
-                <option value="elige">
-                    Elige uno
-                </option>
-                <option value="mucho">
-                    Mucho
-                </option>
-                <option value="bastante">
-                    Bastante
-                </option>
-                <option value="unabanda">
-                    Una banda
-                </option>
-            </select>
-
-        </div>
-
+    <main class="main-contacto">
+        <section class="formulario">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mandanos tu mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </section>
+        <section class="rango">
+            <label for="customRange1" class="form-label">¿Cuánto te gusta María?</label>
+            <input type="range" class="form-range" id="customRange1">
+        </section>
     </main>
 
-    <hr>
     <footer>
         <section class="redes">
             <div>
@@ -106,21 +76,66 @@
                 <a href="https://www.instagram.com/elgreen.s/"><img src="../img/instagram-1.svg" alt="instagram"></a>
                 <a href="Contacto.html"><img src="../img/whatsapp-1.svg" alt="whatsapp"></a>
             </div>
-        </section >
+        </section>
         <section class="logo-footer">
             <a href="Inicio.html">
-            <img src="../img/GS-footer.png" alt="Logo-footer">
+                <img src="../img/GS-footer.png" alt="Logo-footer">
             </a>
         </section>
         <section class="nuevo-socio"><button>
-                <a href="Contacto.html" none><h3>Hacete socio</h3></a>
+                <a href="Contacto.html" none>
+                    <h3>Hacete socio</h3>
+                </a>
             </button>
         </section>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+<!-- <form>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="Nombre" placeholder="Juan Perez">
+    <br>
+
+    <label for="email">Email</label>
+    <input type="email" name="email">
+    <br>
+
+    <label for="password">Contaseña</label>
+    <input type="password" name="password">
+    <br>
+
+    <label for="Mensaje">Mensaje</label>
+    <br>
+    <textarea name="Mensaje" cols="30" rows="10"></textarea>
+    <input type="submit" value="Enviar formulario">
+    <input type="reset" value="Resetear formulario">
+
+</form>
+
+<div><label for="check">Aceptar terminos y condiciones</label>
+    <input type="checkbox" name="Check" id="check">
+
+    <label for="colores">Cuanto te gusta la Marihuana</label>
+    <select name="gustos" id="colores">
+        <option value="elige">
+            Elige uno
+        </option>
+        <option value="mucho">
+            Mucho
+        </option>
+        <option value="bastante">
+            Bastante
+        </option>
+        <option value="unabanda">
+            Una banda
+        </option>
+    </select>
+
+</div> -->

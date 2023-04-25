@@ -111,7 +111,6 @@ footer button {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .main-inicio {
     display: flex;
     flex-direction: column;
@@ -121,11 +120,15 @@ footer button {
     margin: 50px;
     font-size: large;
 }
-
+.main-inicio h1{
+    text-align: center;
+}
+.main-inicio h2{
+    text-align: center;
+}
 .main-inicio img {
     height: 400px;
 }
-
 .main1-club {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -175,6 +178,42 @@ footer button {
     margin-right: 40px;
     margin-left: 40px;
 }
+.normativa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.textogreen{
+    font-family: 'greensheep';
+}
+.normativa p{
+    border: 3px solid rgb(19, 42, 19);
+    border-radius: 10px;
+    padding: 5px;
+}
+.normativa a{
+    font-size:x-large;
+}
+.main-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    font-family: 'newake';
+    font-size: x-large;
+}
+.formulario{
+    padding: 0 200px 0 200px;
+    width: 100%;
+}
+.rango{
+    background-color: rgb(49, 87, 44);
+    color: rgb(236, 243, 158);
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+    width: 100%;
+}
 
 @media screen and (max-width:768px) {
     footer {
@@ -187,58 +226,53 @@ footer button {
             "redes redes"
 
     }
-
     .redes {
         grid-area: redes;
     }
-
     .logo-footer {
         grid-area: logo-footer;
         display: flex;
         justify-content: right;
         padding-right: 60px;
     }
-
     .nuevo-socio {
         grid-area: nuevo-socio;
         display: flex;
         justify-content: left;
     }
-
     .redes {
         margin-right: 0px;
     }
-
     .link-redes {
         justify-content: space-around;
         width: 100%;
     }
-
     .redes h3 {
         display: none;
     }
-
     footer img {
         height: 75px;
     }
-
     .navbar-brand img {
         height: 40px;
     }
-
     .main1-club {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
+    .main1-club p{
+        text-align: center;
+    }
     .linkmapas {
         flex-direction: column;
         align-items: center;
         gap: 50px;
     }
-
     .mapas iframe {
         width: 90vw;
+    }
+    .main-inicio img {
+        height: 200px;
     }
 }
