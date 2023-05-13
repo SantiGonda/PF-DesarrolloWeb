@@ -92,7 +92,7 @@ footer button {
 
 /* GENÉTICAS */
 
-.cards-geneticas h2 {
+.cards-geneticas h1 {
     font-family: 'newake';
     width: 100%;
     color: rgb(19, 42, 19);
@@ -183,7 +183,7 @@ footer button {
     align-items: center;
 }
 
-.nosotros h2 {
+.nosotros h1 {
     font-family: 'greensheep';
 }
 
