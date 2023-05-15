@@ -1,0 +1,30 @@
+.main-inicio {
+  @include justify(space-around);
+  flex-direction: column;
+  align-items: center;
+  font-family: "weed";
+  margin: 9px;
+  font-size: large;
+  background-image: url("../img/flora.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+
+  h1 {
+    text-align: center;
+    background-color: rgb(19, 42, 19);
+    color: rgb(236, 243, 158);
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  h2 {
+    @extend h1
+  }
+
+  img {
+    height: 400px;
+    border-radius: 50px;
+  }
+}

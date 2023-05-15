@@ -1,0 +1,51 @@
+.main-geneticas {
+  background-image: url("../img/Chalas.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .cards-geneticas {
+    h1 {
+      font-family: "newake";
+      width: 100%;
+      color: rgb(19, 42, 19);
+      font-size: 60px;
+      margin-top: 50px;
+      background-color: rgb(236, 243, 158);
+      padding-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    h5 {
+      font-family: "greensheep";
+    }
+
+    .card-body {
+      justify-content: space-between;
+
+      a {
+        background-color: rgb(49, 87, 44);
+        color: rgb(236, 243, 158);
+        font-family: "newake";
+        letter-spacing: 1px;
+        padding-top: 10px;
+      }
+    }
+
+    .card {
+      margin-right: 40px;
+      margin-left: 40px;
+      transition: all 1s;
+
+      img {
+        padding-top: 10px;
+        transition: all 1s;
+      }
+      img:hover{
+        transform: scale(1.5);
+    } 
+  }
+    .card:hover{
+      transform: scale(1.1);
+    }
+  }
+}

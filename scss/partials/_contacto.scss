@@ -1,0 +1,25 @@
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  font-family: "newake";
+  font-size: x-large;
+
+
+  .formulario {
+    width: 70vw;
+
+    .correo {
+      width: 40vw;
+    }
+  }
+
+  .rango {
+    background-color: rgb(49, 87, 44);
+    color: rgb(236, 243, 158);
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+    width: 100%;
+  }
+}

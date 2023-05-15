@@ -1,0 +1,12 @@
+nav {
+    font-family: 'GREENSHEEP';
+    background-color: $verde4;
+
+    .navbar-brand img {
+        height: 70px;
+        transition: all 0.5s;
+    }
+    .navbar-brand img:hover{
+        transform: rotate(360deg);
+    }
+}

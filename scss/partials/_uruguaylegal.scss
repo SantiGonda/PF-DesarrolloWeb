@@ -1,0 +1,20 @@
+.normativa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+
+  .textogreen {
+    font-family: "greensheep";
+  }
+
+  p {
+    border: 3px solid rgb(19, 42, 19);
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  a {
+    font-size: x-large;
+  }
+}
