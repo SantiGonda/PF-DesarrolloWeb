@@ -30,7 +30,7 @@ nav .navbar-brand img {
   transition: all 0.5s;
 }
 nav .navbar-brand img:hover {
-  transform: rotate(360deg);
+  transform: rotateY(360deg);
 }
 
 footer {
@@ -43,8 +43,15 @@ footer {
   position: relative;
   bottom: 0;
 }
-footer img {
+footer .logo-footer {
+  margin-right: 110px;
+}
+footer .logo-footer img {
   height: 120px;
+  transition: all 1s;
+}
+footer .logo-footer img:hover {
+  transform: rotateX(360deg);
 }
 footer section {
   display: flex;
@@ -111,6 +118,7 @@ footer .nuevo-socio a {
 }
 .main-geneticas .cards-geneticas .card img {
   padding-top: 10px;
+  border-radius: 20px;
   transition: all 1s;
 }
 .main-geneticas .cards-geneticas .card img:hover {

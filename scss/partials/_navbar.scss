@@ -7,6 +7,6 @@ nav {
         transition: all 0.5s;
     }
     .navbar-brand img:hover{
-        transform: rotate(360deg);
+        transform: rotateY(360deg);
     }
 }

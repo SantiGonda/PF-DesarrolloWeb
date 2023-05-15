@@ -8,8 +8,16 @@ footer {
     bottom: 0;
 
 
-    img {
-        height: 120px;
+    .logo-footer {
+        margin-right: 110px;
+
+        img {
+            height: 120px;
+            transition: all 1s};
+
+        img:hover {
+            transform: rotateX(360deg)
+        }
     }
 
     section {
