@@ -2,15 +2,11 @@
 
   // FOOTER
   footer {
-    height: 25vh;
+    height: 200px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "logo-footer nuevo-socio" "redes redes";
-
-    img {
-      height: 75px;
-    }
 
     .redes {
       grid-area: redes;
@@ -19,6 +15,7 @@
       .link-redes {
         justify-content: space-around;
         width: 100%;
+        padding-bottom: 5px;
       }
 
       h3 {
@@ -29,23 +26,30 @@
     .logo-footer {
       grid-area: logo-footer;
       display: flex;
-      justify-content: right;
       padding-right: 60px;
+      margin-right: 0;
+      margin-left: 40px;
+      padding-top: 10px;
+
+      img {
+        height: 75px;
+      }
     }
 
     .nuevo-socio {
       grid-area: nuevo-socio;
       display: flex;
-      justify-content: left;
+
+      padding-top: 10px;
     }
   }
 
   // NAVBAR
-nav {
-  .navbar-brand img {
-    height: 40px;
+  nav {
+    .navbar-brand img {
+      height: 40px;
+    }
   }
-}
 
   // ELCLUB
   .main1-club {

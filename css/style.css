@@ -243,14 +243,11 @@ footer .nuevo-socio a {
 
 @media screen and (max-width: 768px) {
   footer {
-    height: 25vh;
+    height: 200px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "logo-footer nuevo-socio" "redes redes";
-  }
-  footer img {
-    height: 75px;
   }
   footer .redes {
     grid-area: redes;
@@ -259,6 +256,7 @@ footer .nuevo-socio a {
   footer .redes .link-redes {
     justify-content: space-around;
     width: 100%;
+    padding-bottom: 5px;
   }
   footer .redes h3 {
     display: none;
@@ -266,13 +264,18 @@ footer .nuevo-socio a {
   footer .logo-footer {
     grid-area: logo-footer;
     display: flex;
-    justify-content: right;
     padding-right: 60px;
+    margin-right: 0;
+    margin-left: 40px;
+    padding-top: 10px;
+  }
+  footer .logo-footer img {
+    height: 75px;
   }
   footer .nuevo-socio {
     grid-area: nuevo-socio;
     display: flex;
-    justify-content: left;
+    padding-top: 10px;
   }
   nav .navbar-brand img {
     height: 40px;
