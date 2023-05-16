@@ -225,6 +225,14 @@ footer .nuevo-socio a {
 .main-contacto .formulario .correo {
   width: 40vw;
 }
+.main-contacto .formulario button {
+  margin: 5px 0 50px 0;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(49, 87, 44);
+  border-radius: 30px;
+  border: 3px solid rgb(19, 42, 19);
+  color: rgb(236, 243, 158);
+}
 .main-contacto .rango {
   background-color: rgb(49, 87, 44);
   color: rgb(236, 243, 158);

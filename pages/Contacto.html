@@ -54,22 +54,25 @@
     </header>
 
 
-    <main class="main-contacto">
+    <form action="https://formsubmit.co/greensheep.c.c@gmail.com" method="POST" class="main-contacto">
         <section class="formulario">
             <div class="mb-3 correo">
                 <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" name="email"  class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Mandanos tu mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea type="text" name="name" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
+            <div>
+            <button type="submit">Enviar</button>
+        </div>
         </section>
         <section class="rango">
             <label for="customRange1" class="form-label">¿Cuánto te gusta María?</label>
             <input type="range" class="form-range" id="customRange1">
         </section>
-    </main>
+    </form>
 
     <footer>
         <section class="redes">

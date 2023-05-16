@@ -13,6 +13,14 @@
     .correo {
       width: 40vw;
     }
+    button {
+      margin: 5px 0 50px 0;
+      padding: 10px 10px 10px 10px;
+      background-color: $verde3;
+      border-radius: 30px;
+      border: 3px solid $verde4;
+      color: $amarilloclaro;
+    }
   }
 
   .rango {
